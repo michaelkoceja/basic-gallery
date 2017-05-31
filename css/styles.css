@@ -14,19 +14,10 @@
   overflow: auto;
 }
 
-/*body {
-  color: white;
-}*/
-
-/*#boxes {
-  width: 70vw;
-  float: left;
-  margin: 15px 25px;
-}*/
 
 #boxes {
-  width: 70vw;
-  margin: 3vh auto;
+  width: 40vw;
+  margin: 1vh auto;
 }
 
 .nav-bar {
@@ -62,3 +53,37 @@
   border: 1px solid yellow;
   background: lightblue;
 }
+
+@media screen and (min-width:600px) {
+  #boxes {
+    float: left;
+    display: block;
+    width: 40vmin;
+    margin: 2vh 1vw;
+  }
+  .nav-bar {
+    background: red;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  #boxes {
+    float: left;
+    display: inline-block;
+    width: 40vmin;
+  }
+  .nav-bar {
+    background: green;
+  }
+}
+
+/*@media screen and (max-width:1400px) {
+  #boxes {
+    float: left;
+    display: inline-block;
+    width: 40vmin;
+  }
+  .nav-bar {
+    background: blue;
+  }
+}*/
