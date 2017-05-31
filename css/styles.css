@@ -1,0 +1,64 @@
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+  text-align: center;
+}
+
+.wrap {
+  background: lightgrey;
+  margin: 15px 15px;
+  overflow: auto;
+}
+
+/*body {
+  color: white;
+}*/
+
+/*#boxes {
+  width: 70vw;
+  float: left;
+  margin: 15px 25px;
+}*/
+
+#boxes {
+  width: 70vw;
+  margin: 3vh auto;
+}
+
+.nav-bar {
+  background: orange;
+}
+
+.box-1 {
+  border: 1px solid red;
+  background: lightblue;
+}
+
+.box-2 {
+  border: 1px solid yellow;
+  background: lightblue;
+}
+
+.box-3 {
+  border: 1px solid red;
+  background: lightblue;
+}
+
+.box-4 {
+  border: 1px solid yellow;
+  background: lightblue;
+}
+
+.box-5 {
+  border: 1px solid red;
+  background: lightblue;
+}
+
+.box-6 {
+  border: 1px solid yellow;
+  background: lightblue;
+}
