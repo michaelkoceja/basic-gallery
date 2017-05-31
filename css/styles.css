@@ -15,8 +15,8 @@
 }
 
 
-#boxes {
-  width: 40vw;
+.boxes {
+  width: 33vw;
   margin: 1vh auto;
 }
 
@@ -24,41 +24,41 @@
   background: orange;
 }
 
-.box-1 {
+#box-1 {
   border: 1px solid red;
   background: lightblue;
 }
 
-.box-2 {
+#box-2 {
   border: 1px solid yellow;
   background: lightblue;
 }
 
-.box-3 {
+#box-3 {
   border: 1px solid red;
   background: lightblue;
 }
 
-.box-4 {
+#box-4 {
   border: 1px solid yellow;
   background: lightblue;
 }
 
-.box-5 {
+#box-5 {
   border: 1px solid red;
   background: lightblue;
 }
 
-.box-6 {
+#box-6 {
   border: 1px solid yellow;
   background: lightblue;
 }
 
 @media screen and (min-width:600px) {
-  #boxes {
+  .boxes {
     float: left;
     display: block;
-    width: 40vmin;
+    width: 29vw;
     margin: 2vh 1vw;
   }
   .nav-bar {
@@ -67,10 +67,10 @@
 }
 
 @media screen and (min-width:1200px) {
-  #boxes {
+  .boxes {
     float: left;
     display: inline-block;
-    width: 40vmin;
+    width: 29vw;
   }
   .nav-bar {
     background: green;
